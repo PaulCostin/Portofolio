@@ -1,0 +1,504 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    margin: -1px;
+    background-color: black;
+}
+
+body>img {
+    position: absolute;
+    z-index: -100;
+    width: 100vw;
+    height: auto;
+}
+
+/* Below here we have the navigation bar */
+#navbar {
+    margin: 0;
+    border: 1px solid rgb(255, 255, 255);
+    height: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar1,
+.navbar2,
+.navbar3,
+.navbar4 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.navbar1,
+.navbar4 {
+    width: 10%;
+}
+
+.navbar2 {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.navbar2-2>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar2-2 {
+    display: flex;
+    justify-content: space-around;
+    width: 15em;
+}
+
+.navbar3 {
+    text-align: center;
+    padding-top: 20PX;
+    font-size: 30px;
+    width: 15%;
+}
+
+/* This is where the navbar section ends */
+
+/* We start the body */
+
+#mainArticle {
+    margin: 0;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    border-top: none;
+    margin-top: -2px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: -1px;
+
+}
+
+.div1,
+.div4 {
+    height: 33rem;
+    width: 10%;
+}
+
+.div2 {
+    width: 65%;
+}
+
+.div3 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    width: 15%;
+}
+
+.div3>img {
+    filter: invert(1);
+    margin-top: 3rem;
+    margin-right: 1rem;
+    width: 170px;
+}
+
+/* Not finished with the main article */
+/* start working on div2 */
+
+.div2-depth-1,
+.div2-depth-2 {
+    margin: 0;
+    margin-left: -1px;
+    margin-right: -1px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.div2-depth-1 {
+    box-sizing: border-box;
+    border-top: none;
+    margin-top: -1px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 25rem;
+}
+
+.div2-depth-2 {
+    margin-bottom: -1px;
+    height: 8rem;
+}
+
+.div2-depth-1-1 {
+    margin-bottom: -1px;
+}
+
+.div2-depth-1-2 {
+    /* should probably use a span here to not interfere with the images I wil add */
+    box-sizing: border-box;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    border: 1px solid rgb(255, 255, 255);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.div2-depth-1-1-1,
+.div2-depth-1-1-2,
+.div2-depth-1-1-3 {
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 65px;
+    margin-left: -1px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    height: 33%;
+    letter-spacing: 24px;
+}
+
+.div2-depth-1-1-3 {
+    height: 34%;
+}
+
+/* Finished the layout */
+/* Modify some more(images/text/etc */
+
+.div2-depth-2>img {
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    user-select: none;
+    filter: invert(1)
+}
+
+.div2-depth-2>span {
+    margin-top: 20px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.div2-depth-2>span>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Start the work on the about me section */
+#aboutMe {
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.section-1,
+.section-3 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    width: 10%;
+    height: 50rem;
+}
+
+.section-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    width: 80%;
+    height: 50rem;
+}
+
+.aboutMe {
+    background-color: rgb(82, 82, 82);
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50rem;
+}
+
+.aboutMe>h2,
+h1 {
+    padding-left: 10%;
+    font-size: 30px;
+    letter-spacing: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.aboutMe>h1 {
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+.aboutMe>.description {
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.section-2-image>img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.section-2-image {
+    width: 40%;
+    height: 50rem;
+}
+
+/* about me section finished */
+
+/* start working on the projects section*/
+
+#prj-nav {
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    box-sizing: border-box;
+    height: 7rem;
+}
+
+.prj-nav-1,
+.prj-nav-3 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    width: 10%;
+    height: 7rem;
+}
+
+.prj-nav-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    width: 80%;
+    height: 7rem;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+.prj-nav-2>img {
+    filter: invert(1);
+    color: white;
+    width: 30rem;
+    height: 7rem;
+}
+
+.prj-nav-2>p {
+    display: inline-block;
+    height: fit-content;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+/* named this as the projects navbar */
+/* its finished */
+/* start the work on the actual projects grid and display */
+#portofolio {
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    box-sizing: border-box;
+    height: 70rem;
+}
+
+.portofolio-1,
+.portofolio-3 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    width: 10%;
+    height: 70rem;
+}
+
+.portofolio-2 {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    width: 80%;
+    height: 70rem;
+
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5,
+.project-6 {
+    border: 1px solid rgb(255, 255, 255);
+    height: auto;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.portofolio-2>a>h3 {
+    font-size: 35px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.portofolio-2>a>p {
+    margin: -5px 0 0 10%;
+    font-size: 25px;
+}
+
+.portofolio-2>a>h6 {
+    position: absolute;
+    bottom: 1%;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.portofolio-2>a>h4 {
+    position: absolute;
+    bottom: 6.1%;
+    font-size: 20px;
+    right: 10%;
+}
+
+
+
+/* finish the projects and link them here then finish this section */
+/* contact nav */
+
+#contact-nav {
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    box-sizing: border-box;
+    height: 8rem;
+}
+
+.cntct-nav-1,
+.cntct-nav-3 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    width: 10%;
+    height: 8rem;
+}
+
+.cntct-nav-2 {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    width: 80%;
+    height: 8rem;
+}
+
+.cntct-nav-2>p {
+    display: inline-block;
+    height: fit-content;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 50px;
+}
+
+/* should add here the image tag that needs CSS */
+
+/* contact me nav section finished */
+/* start the work on contact me form */
+#contact-form {
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    box-sizing: border-box;
+    height: 28rem;
+}
+
+.contact-form-1,
+.contact-form-3 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    width: 10%;
+    height: 28rem;
+}
+
+.contact-form-2 {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    width: 80%;
+    height: 28rem;
+}
+
+.myDetails,
+.form {
+    border: 1px solid rgb(255, 255, 255);
+    height: auto;
+}
+
+.contact-form-2>.myDetails>p {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+/* Final div and disclaimer / end of page */
+
+
+#disclaimer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 7rem;
+    margin-top: -16px;
+}
+
+#disclaimer>p {
+    color: black;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+#disclaimer>a>img {
+    width: auto;
+    margin-top: 40px;
+    padding-left: 80px;
+    height: 60px;
+}
+
+
+/* animate on scroll */
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
