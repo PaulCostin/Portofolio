@@ -26,10 +26,9 @@
                 <a href="#aboutMe">ABOUT ME</a>
                 <a href="#projects">PROJECTS</a>
                 <a href="">CONTACT</a>
-                <a href="">EN</a>
             </div>
         </div>
-        <div class="navbar3">Contacts</div>
+        <div class="navbar3"><a href="">EN</a></div>
         <div class="navbar4"></div>
     </div>
     <section id="mainArticle">
@@ -138,12 +137,12 @@
                     </span>
                 </h4>
             </a>
-            <a class="project-5 hidden" href="">
+            <a class="project-5 hidden" href="https://www.frontendmentor.io/profile/Rooneyfull">
                 <h3>Frontend Mentor Portofolio</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Some of the first projects I tried and completed</p>
                 <br>
-                <p>sed do eiusmod tempor incididunt ut labore et dolore</p>
-                <h6>09/2022</h6>
+                <p>More to come </p>
+                <h6>08/2022 - 09/2022</h6>
                 <h4>Learn More<span class="material-symbols-outlined">
                         open_in_new
                     </span>
@@ -171,14 +170,45 @@
         <div class="cntct-nav-3 hidden"></div>
     </section>
     <section id="contact-form">
-        <div class="contact-form-1 hidden">
-        </div>
+        <div class="contact-form-1 hidden"></div>
         <div class="contact-form-2 hidden">
             <div class="myDetails">
                 <p>Lets do some great work together!</p>
+                <a href="https://www.instagram.com/paulcostin_/">INSTAGRAM >></a>
+                <a href="https://www.linkedin.com/in/paul-costin/">LINKEDIN >></a>
+                <a href="https://github.com/PaulCostin">GITHUB>></a>
             </div>
-            <div class="form">
-            </div>
+            <form method="post" action='mailto:paulcrazvan@gmail.com' enctype="text/plain">
+                <fieldset>
+                    <label for="first-name">Enter Your Name: <input id="first-name" name="Your name is " type="text"
+                            required /></label>
+                    <label for="email">Enter Your Email: <input id="email" name="Your Email Adress is " type="email"
+                            required /></label>
+                </fieldset>
+                <fieldset>
+                    <p>Would you like a ... ? </p>
+                    <label class="typeOfWebsite" for="landing-page"><input id="landing-page" type="radio"
+                            name="Landing-page" class="inline" />Landing page</label>
+                    <label class="typeOfWebsite" for="online-shop"><input id="online-shop" type="radio"
+                            name="Online-shop" class="inline" />Online Shop</label>
+                </fieldset>
+                <fieldset>
+                    <label for="referrer">How did you hear about me?
+                        <select id="referrer" name="How did you hear about me">
+                            <option value="">(select one)</option>
+                            <option value="I applied to your company">I applied to your company</option>
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="From an acquaintance">From an acquaintance</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </label>
+                    <label for="bio">Do you have any thing to add?:
+                        <textarea id="bio" name="Message" rows="3" cols="30"
+                            placeholder="I like your work a lot but ..."></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="Submit" />
+            </form>
         </div>
         <div class="contact-form-3 hidden"></div>
     </section>

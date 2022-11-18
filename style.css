@@ -51,15 +51,15 @@ body>img {
     width: 65%;
 }
 
-.navbar2-2>a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
 .navbar2-2 {
     display: flex;
     justify-content: space-around;
     width: 15em;
+}
+
+.navbar2-2>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .navbar3 {
@@ -67,6 +67,11 @@ body>img {
     padding-top: 20PX;
     font-size: 30px;
     width: 15%;
+}
+
+.navbar3>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 /* This is where the navbar section ends */
@@ -464,7 +469,38 @@ h1 {
 .contact-form-2>.myDetails>p {
     margin-left: 10%;
     margin-top: 10%;
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.myDetails>a {
+    display: block;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+}
+
+.myDetails>a:nth-child(2) {
+    margin-top: 130px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset>label {
+    display: block
+}
+
+.typeOfAccount {
+    display: inline-block;
+}
+
+textarea {
+    resize: none;
 }
 
 /* Final div and disclaimer / end of page */
@@ -475,7 +511,8 @@ h1 {
     display: flex;
     justify-content: space-around;
     height: 7rem;
-    margin-top: -16px;
+    margin-top: -5px;
+    box-sizing: border-box;
 }
 
 #disclaimer>p {
@@ -487,10 +524,20 @@ h1 {
 #disclaimer>a>img {
     width: auto;
     margin-top: 40px;
-    padding-left: 80px;
     height: 60px;
 }
 
+#disclaimer>p:nth-child(1) {
+    margin-left: -7%;
+}
+
+#disclaimer>a {
+    margin-left: 32px;
+}
+
+#disclaimer>p:nth-child(3) {
+    margin-right: -10%;
+}
 
 /* animate on scroll */
 
