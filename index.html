@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="style.css">
+    <link href="Night.css" id="styles" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Paul Costin</title>
@@ -28,7 +30,9 @@
                 <a href="">CONTACT</a>
             </div>
         </div>
-        <div class="navbar3"><a href="">EN</a></div>
+        <div class="navbar3">
+            <input type=button id="mode" value="Toggle Night/Day Mode">
+        </div>
         <div class="navbar4"></div>
     </div>
     <section id="mainArticle">
@@ -58,7 +62,7 @@
         </div>
         <div class="div4 hidden"></div>
     </section>
-    <section id="aboutMe">
+    <section id="aboutMeSection">
         <div class="section-1 hidden"></div>
         <div class="section-2 hidden">
             <div class="aboutMe">
@@ -173,26 +177,29 @@
         <div class="contact-form-1 hidden"></div>
         <div class="contact-form-2 hidden">
             <div class="myDetails">
-                <p>Lets do some great work together!</p>
+                <p class="work">Lets do some great work together!</p>
                 <a href="https://www.instagram.com/paulcostin_/">INSTAGRAM >></a>
                 <a href="https://www.linkedin.com/in/paul-costin/">LINKEDIN >></a>
                 <a href="https://github.com/PaulCostin">GITHUB>></a>
             </div>
-            <form method="post" action='mailto:paulcrazvan@gmail.com' enctype="text/plain">
-                <fieldset>
-                    <label for="first-name">Enter Your Name: <input id="first-name" name="Your name is " type="text"
-                            required /></label>
+            <form method="post" action='mailto:paulcrazvan@gmail.com' enctype="text/plain" autocomplete="off">
+                <fieldset class="fieldset1">
+                    <label for="first-name">Enter Your Name: <input autocomplete="off" id="first-name"
+                            name="Your name is " type="text" required /></label>
                     <label for="email">Enter Your Email: <input id="email" name="Your Email Adress is " type="email"
                             required /></label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="fieldset2">
                     <p>Would you like a ... ? </p>
-                    <label class="typeOfWebsite" for="landing-page"><input id="landing-page" type="radio"
-                            name="Landing-page" class="inline" />Landing page</label>
-                    <label class="typeOfWebsite" for="online-shop"><input id="online-shop" type="radio"
-                            name="Online-shop" class="inline" />Online Shop</label>
+                    <div class="fieldset-subset">
+                        <label class="typeOfWebsite" for="landing-page"><input id="landing-page" type="radio"
+                                name="kindOfPage" class="inline" />Landing page</label>
+                        <label class="typeOfWebsite" for="online-shop"><input id="online-shop" type="radio"
+                                name="kindOfPage" class="inline" />Online Shop</label>
+                    </div>
+
                 </fieldset>
-                <fieldset>
+                <fieldset class="fieldset3">
                     <label for="referrer">How did you hear about me?
                         <select id="referrer" name="How did you hear about me">
                             <option value="">(select one)</option>
@@ -207,18 +214,15 @@
                             placeholder="I like your work a lot but ..."></textarea>
                     </label>
                 </fieldset>
-                <input type="submit" value="Submit" />
+                <input id="button" type="submit" value="Submit" />
             </form>
         </div>
         <div class="contact-form-3 hidden"></div>
     </section>
     <section id="disclaimer" class="hidden">
-        <p>PAUL_COSTIN</p>
-        <a href="#navbar"><img src="images/arrow.png" alt="" srcset=""></a>
-        <p>ALL RIGHTS RESERVED</p>
+        <a href="#navbar"><img class="bounce2" src="images/arrow.png"></a>
     </section>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="app.js"></script>
 </body>
 

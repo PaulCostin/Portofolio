@@ -11,3 +11,16 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+
+
+$(document).ready(function () {
+    $('#mode').click(function () {
+        if ($('link#styles').attr('href') == "Night.css") {
+            $('link#styles').attr('href', 'Day.css')
+        }
+        else {
+            $('link#styles').attr('href', 'Night.css')
+        }
+    })
+
+});
