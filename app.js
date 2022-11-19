@@ -17,9 +17,11 @@ $(document).ready(function () {
     $('#mode').click(function () {
         if ($('link#styles').attr('href') == "Night.css") {
             $('link#styles').attr('href', 'Day.css')
+            $('#mode').attr('value', 'Toggle Night Mode')
         }
         else {
             $('link#styles').attr('href', 'Night.css')
+            $('#mode').attr('value', 'Toggle Day Mode')
         }
     })
 

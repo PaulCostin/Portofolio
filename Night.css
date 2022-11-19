@@ -71,11 +71,12 @@ body>img {
 }
 
 .navbar3>input {
-    width: 200px;
+    width: 70%;
     height: 50px;
     margin-top: -5px;
     font-size: 20px;
-    border-radius: 40px
+    border-radius: 40px;
+    padding: 0;
 }
 
 .navbar3>input:hover {
@@ -574,6 +575,7 @@ fieldset>label {
     font-weight: 600;
     font-size: 30px;
     letter-spacing: 10px;
+    margin-top: 25px;
 }
 
 #button:hover {
@@ -660,9 +662,92 @@ fieldset>label {
     body {
         background-color: green;
     }
+
+    .navbar2-2 {
+        width: 12em;
+    }
+
+    .div3>img {
+        width: 150px;
+        margin-top: 4.5rem;
+    }
+
+    .navbar3>input {
+        width: 140px;
+    }
+
+    .work {
+        padding-right: 30px;
+    }
+
+    .div2-depth-1-2 {
+        letter-spacing: normal;
+        padding-right: 20px;
+    }
+
+    .div2-depth-1 {
+        grid-template-columns: 3fr 1fr;
+        height: 25rem;
+    }
+
+    .div2-depth-1-1-1,
+    .div2-depth-1-1-2,
+    .div2-depth-1-1-3 {
+        font-size: 55px;
+        letter-spacing: 19px;
+    }
+
+    .aboutMe>.description {
+        padding-top: 15px;
+    }
+
+    .section-2-image>img {
+        object-position: left;
+    }
+
+    .aboutMe>h1 {
+        margin-top: 35px;
+    }
+
+    .aboutMe>.description:nth-child(4) {
+        padding-top: 0px;
+    }
+
+    .section-1,
+    .section-2,
+    .section-3,
+    .aboutMe {
+        height: 50rem;
+    }
+
+    .portofolio-2>a>h3,
+    .portofolio-2>a>p:nth-child(2),
+    .portofolio-2>a>p:nth-child(4),
+    .portofolio-2>a>h6,
+    .portofolio-2>a>h4 {
+        margin-left: 30px;
+    }
+
+    .portofolio-2>a>h3,
+    .portofolio-2>a>p:nth-child(2) {
+        margin-top: 35px;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    #contact-nav,
+    .cntct-nav-1,
+    .cntct-nav-2,
+    .cntct-nav-3 {
+        height: 6rem;
+    }
+
+    .cntct-nav-2>p {
+        margin-top: 20px;
+    }
 }
 
 /* Media Query for Large screens */
-@media (min-width: 1231px) {
-    body {}
-}
+@media (min-width: 1231px) {}
