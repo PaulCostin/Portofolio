@@ -28,7 +28,6 @@ $(document).ready(function () {
     })
 })
 
-
 const hamburger = document.querySelectorAll(".icon-ham");
 hamburger.forEach(function (openMenu) {
     openMenu.addEventListener("click", function () {
@@ -52,22 +51,3 @@ function myFunction(section) {
         document.getElementById('contact-form').scrollIntoView();
     }
 }
-
-
-
-
-
-
-// const input = $("#mode")
-// $(document).ready(function () {
-//     $('#mode').forEach(input).click(function () {
-//         if ($('link#styles').attr('href') == "Night.css") {
-//             $('link#styles').attr('href', 'Day.css')
-//             $('#mode').attr('value', 'Toggle Night Mode')
-//         }
-//         else {
-//             $('link#styles').attr('href', 'Night.css')
-//             $('#mode').attr('value', 'Toggle Day Mode')
-//         }
-//     })
-// })
