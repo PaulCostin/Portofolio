@@ -29,7 +29,7 @@ $(document).ready(function () {
 })
 
 
-const hamburger = document.querySelectorAll(".material-symbols-outlined");
+const hamburger = document.querySelectorAll(".icon-ham");
 hamburger.forEach(function (openMenu) {
     openMenu.addEventListener("click", function () {
         document.querySelector('#contact-menubar').classList.toggle("visible");
