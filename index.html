@@ -18,7 +18,17 @@
 </head>
 
 <body>
+    <div id="contact-menubar">
+        <span class="material-symbols-outlined">
+            menu
+        </span>
+        <!-- only for Mobile Version-->
+        <a class="links" onclick="myFunction('aboutMe')" href="#aboutMe">ABOUT ME</a>
+        <a class="links" onclick="myFunction('projects')" href="#projects">PROJECTS</a>
+        <a class="links" onclick="myFunction('contact')" href="#contact-form">CONTACT</a>
+    </div>
     <div id="navbar">
+        <!--  This is for laptops and desktop versions  -->
         <div class="navbar1"></div>
         <div class="navbar2">
             <div class="navbar2-1">
@@ -27,7 +37,7 @@
             <div class="navbar2-2">
                 <a href="#aboutMe">ABOUT ME</a>
                 <a href="#projects">PROJECTS</a>
-                <a href="">CONTACT</a>
+                <a href="#contact-form">CONTACT</a>
             </div>
         </div>
         <div class="navbar3">
@@ -35,6 +45,44 @@
         </div>
         <div class="navbar4"></div>
     </div>
+    <div id="navbar-m">
+        <!--  This is for Mobile and Portrait Tablet versions  -->
+        <div class="navbar1-m"></div>
+        <div class="navbar2-m">
+            <p>PAUL_COSTIN </p>
+        </div>
+        <div class="navbar3-m">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+        <div class="navbar4-m">
+            <button id="mode" value="Toggle Day Mode">
+                <span class="material-symbols-outlined">
+                    dark_mode
+                </span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <section id="mainArticle">
         <div class="div1 hidden"></div>
         <div class="div2 hidden">
@@ -92,7 +140,6 @@
         <div class="prj-nav-1 hidden"></div>
         <div class="prj-nav-2 hidden">
             <p>MY PROJECTS</p>
-            <img src="images/Lovepik_com-400671217-geometric-lines.png" alt="" srcset="">
         </div>
         <div class="prj-nav-3 hidden"></div>
     </section>
@@ -100,7 +147,6 @@
         <div class="portofolio-1 hidden"></div>
         <div class="portofolio-2 hidden">
             <a class="project-1 hidden" href="https://paulcostin.github.io/Tip-Calculator/">
-
                 <h3>Tip Calculator</h3>
                 <p>Used to calculate tips quickly when you are out with your friends</p>
                 <br>
@@ -110,7 +156,6 @@
                         open_in_new
                     </span>
                 </h4>
-
             </a>
             <a class="project-2 hidden" href="https://paulcostin.github.io/Simon-Game/">
                 <h3>Simon Game</h3>
@@ -121,7 +166,7 @@
                     </span>
                 </h4>
             </a>
-            <a class="project-3 hidden" href="">
+            <a class="project-3 hidden" href="https://paulcostin.github.io/Javascript-Quiz/">
                 <h3>Javascript Quiz</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <br>
