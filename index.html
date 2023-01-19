@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Just my own personal portofolio" />
+    <meta name="author" content="Paul Costin" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Resources/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Resources/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Resources/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="Resources/images/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/5970bc6679.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Paul`s Coding</title>
+  </head>
+  <body>
+    <nav
+      id="navbar"
+      class="flex uppercase fs-600 fw-300 bg-color"
+      style="justify-content: space-evenly"
+    >
+      <div class="flex" style="width: 100%">
+        <a
+          class="noDecoration text-color"
+          style="text-align: center"
+          href="#landing"
+          >Home</a
+        >
+        <a
+          class="noDecoration text-color"
+          style="text-align: center"
+          href="#experience"
+          >Experience</a
+        >
+        <a
+          class="noDecoration text-color"
+          style="text-align: center"
+          href="#aboutme"
+          >About Me</a
+        >
+        <a
+          class="noDecoration text-color"
+          style="text-align: center"
+          href="#projects"
+          >Projects</a
+        >
+        <a
+          class="noDecoration text-color"
+          style="text-align: center"
+          href="#contact"
+          >Contact</a
+        >
+      </div>
+      <div id="mode-toggle">
+        <i
+          id="dark"
+          onclick="toggleDarkMode()"
+          class="fa-solid fa-lightbulb"
+        ></i>
+      </div>
+    </nav>
+    <div id="landing" class="wrapper">
+      <article class="flex home" style="gap: 10%">
+        <div class="flex container">
+          <h1 style="align-self: flex-end" class="fs-700 uppercase">
+            I am Paul Razvan Costin
+          </h1>
+          <p class="fs-600 uppercase">
+            Web Developer, Civil Engineer, Gamer and student
+          </p>
+        </div>
+        <img
+          src="Resources/images/IMG_4202.JPEG"
+          alt="photo of Paul Costin"
+          srcset=""
+        />
+      </article>
+    </div>
+    <div id="experience" class="wrapper">
+      <article class="bg-dark text-light">
+        <h2 class="fs-700 uppercase wrapper-title">Experience</h2>
+        <div
+          class="flex"
+          style="justify-content: space-evenly; margin-inline: 10rem"
+        >
+          <div class="exp fs-500 fw-600 uppercase">
+            <p>Nagarro</p>
+            <p>Nov `22 - Present</p>
+            <p>Remote Learning</p>
+          </div>
+          <div class="exp fs-500 fw-600 uppercase">
+            <p>Frontend Mentor</p>
+            <a
+              href="https://www.frontendmentor.io/profile/Rooneyfull"
+              class="noDecoration text-light"
+              >My profile <i class="fa-solid fa-link"></i
+            ></a>
+          </div>
+          <div class="exp fs-500 fw-600 uppercase">
+            <p>Udemy Course</p>
+            <a
+              href="https://www.udemy.com/certificate/UC-bba7919e-5a7a-4612-a09c-9b80aba3b7e2/"
+              class="noDecoration text-light"
+              >My Certification <i class="fa-solid fa-link"></i
+            ></a>
+          </div>
+          <div class="exp fs-500 fw-600 uppercase">
+            <p>freeCodeCamp</p>
+            <a
+              href="https://www.freecodecamp.org/Rooneyfull"
+              class="noDecoration text-light"
+            >
+              My Licenses <i class="fa-solid fa-link"></i
+            ></a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div id="aboutme" class="wrapper">
+      <article>
+        <h2 class="fs-700 uppercase wrapper-title white">About Me</h2>
+        <div class="description">
+          <p class="text-light fs-500 fw-500 white">
+            I am a driven and creative individual who has decided to channel my
+            passion for building into the world of web design. My background in
+            building concrete structures has given me a unique perspective on
+            the importance of simplicity and minimalism in website design. I
+            have found my true passion in building awesome projects and writing
+            code and I am constantly looking to learn and improve my skills. My
+            hobbies include photography and driving fast cars. I am excited to
+            continue my journey in web design and to bring my unique perspective
+            to the projects I work on.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div id="projects" class="wrapper">
+      <article>
+        <h2 class="fs-700 uppercase wrapper-title">Projects</h2>
+        <div class="projects flex">
+          <a href="https://paulcostin.github.io/Simon-Game/"
+            ><img
+              src="Resources/images/project1.png"
+              alt="Screenshot of my first project"
+            />Simple memory game built during the completion of my Udemy
+            Course</a
+          >
+          <a href="https://paulcostin.github.io/advice-generator-app/"
+            ><img
+              src="Resources/images/project2.png"
+              alt="Screenshot of my second project"
+            />Interesting app using the bored API to provide you with
+            interesting life advices</a
+          >
+          <a href="https://paulcostin.github.io/Tip-Calculator/"
+            ><img
+              src="Resources/images/project3.png"
+              alt="Screenshot of my third project"
+            />Web app built for ease of use when going out with friends for:
+            Calculating tips !</a
+          >
+          <a
+            href="https://paulcostin.github.io/An-intro-section-with-a-dropdown-navigation/"
+            ><img
+              src="Resources/images/project4.png"
+              alt="Screenshot of my fourth project"
+            />Landing page with dropdown navigation and having a mobile
+            navigation when changing device widths</a
+          >
+          <a href="https://paulcostin.github.io/TinDog/"
+            ><img
+              src="Resources/images/project6.png"
+              alt="Screenshot of my fifth project"
+            />
+            Fun project built with bootstrap 5.1 to help your own dog, get a
+            partner.
+          </a>
+        </div>
+      </article>
+    </div>
+    <div id="contact" class="wrapper">
+      <article>
+        <h2 class="fs-700 uppercase wrapper-title">Contact Details</h2>
+        <div class="details flex" style="height: 500px">
+          <div class="form-left">
+            <h3 class="fs-600">The best thing, I can say yes.</h3>
+            <p style="margin-top: 1rem" class="fs-500">
+              Always open to discuss if you have a proposal!
+            </p>
+            <div class="flex follows">
+              <span class="fs-500">
+                <p class="fw-600">Here is my email:</p>
+                <p class="fs-400">paulcrazvan@gmail.com</p>
+              </span>
+              <div class="fs-500">
+                <p class="fw-600">Follow me here</p>
+                <div class="flex" style="justify-content: space-around">
+                  <a
+                    class="noDecoration text-color"
+                    href="https://www.linkedin.com/in/paul-costin/"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                  <a
+                    class="noDecoration text-color"
+                    href="https://github.com/PaulCostin"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a
+                    class="noDecoration text-color"
+                    href="https://www.instagram.com/paulcostin_/"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    class="noDecoration text-color"
+                    href="https://www.facebook.com/costin.paul"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-right bg-dark">
+            <form
+              action="https://formsubmit.co/paulcrazvan@gmail.com"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="New Portofolio Email"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://paulcostin.github.io/Portofolio/thanks.html"
+              />
+              <input
+                class="bg-dark"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name:"
+                required
+              /><br />
+              <input
+                class="bg-dark"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email:"
+                required
+              /><br />
+              <input
+                class="bg-dark"
+                type="text"
+                id="budget"
+                name="budget"
+                placeholder="Your Budget"
+              /><br />
+              <textarea
+                class="bg-dark"
+                id="description"
+                name="description"
+                placeholder="Project Description"
+              ></textarea>
+              <br />
+              <button
+                id="input-field"
+                class="uppercase bg-color input-field"
+                type="submit"
+                value="Submit"
+              >
+                submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </article>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
